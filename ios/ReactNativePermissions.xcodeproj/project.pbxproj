@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		488FE29C200BC8A100E05AB0 /* RNPMediaLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 488FE29B200BC8A100E05AB0 /* RNPMediaLibrary.m */; };
-		488FE2A2200BCED100E05AB0 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488FE2A1200BCEC900E05AB0 /* MediaPlayer.framework */; };
 		669581F71FE4416B008596CD /* RCTConvert+RNPStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 669581F41FE4416B008596CD /* RCTConvert+RNPStatus.m */; };
 		669581F81FE4416B008596CD /* ReactNativePermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = 669581F51FE4416B008596CD /* ReactNativePermissions.m */; };
 		6695820D1FE441A8008596CD /* RNPSpeechRecognition.m in Sources */ = {isa = PBXBuildFile; fileRef = 669581FD1FE441A7008596CD /* RNPSpeechRecognition.m */; };
@@ -71,7 +70,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				488FE2A2200BCED100E05AB0 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
