@@ -17,12 +17,12 @@ Request user permissions from React Native, iOS + Android
 ## Setup
 
 ```sh
-npm install --save react-native-permissions @react-native-community/async-storage
+npm install --save react-native-permissions @react-native-async-storage/async-storage
 # --- or ---
-yarn add react-native-permissions @react-native-community/async-storage
+yarn add react-native-permissions @react-native-async-storage/async-storage
 ```
 
-_⚠️ To install `@react-native-community/async-storage`, please refers to the [package documentation](https://github.com/react-native-community/async-storage)._
+_⚠️ To install `@react-native-async-storage/async-storage`, please refers to the [package documentation](https://github.com/react-native-async-storage/async-storage)._
 
 _📌 Don't forget to add permissions to `AndroidManifest.xml` for android and `Info.plist` for iOS (Xcode >= 8). See [iOS Notes](#ios-notes) or [Android Notes](#android-notes) for more details._
 

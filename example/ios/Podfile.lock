@@ -83,8 +83,8 @@ PODS:
     - React-fishhook (= 0.60.3)
   - ReactNativePermissions (1.2.0):
     - React
-  - RNCAsyncStorage (1.5.1):
-    - React
+  - RNCAsyncStorage (1.15.5):
+    - React-Core
   - yoga (0.60.3.React)
 
 DEPENDENCIES:
@@ -110,11 +110,11 @@ DEPENDENCIES:
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - React-RCTWebSocket (from `../node_modules/react-native/Libraries/WebSocket`)
   - ReactNativePermissions (from `../node_modules/react-native-permissions`)
-  - "RNCAsyncStorage (from `../node_modules/@react-native-community/async-storage`)"
+  - "RNCAsyncStorage (from `../node_modules/@react-native-async-storage/async-storage`)"
   - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - boost-for-react-native
 
 EXTERNAL SOURCES:
@@ -163,7 +163,7 @@ EXTERNAL SOURCES:
   ReactNativePermissions:
     :path: "../node_modules/react-native-permissions"
   RNCAsyncStorage:
-    :path: "../node_modules/@react-native-community/async-storage"
+    :path: "../node_modules/@react-native-async-storage/async-storage"
   yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -190,10 +190,10 @@ SPEC CHECKSUMS:
   React-RCTText: b026f8350c2cbe0daeb9880dd9c6e018fce0daf7
   React-RCTVibration: 5d9ed4a968e9d42880ddcc7c29bee3417c745408
   React-RCTWebSocket: 69d8565d66043f244b4129f3d7154c5689fb7d3e
-  ReactNativePermissions: f3beb8871251594a8ea2c6b19a3f8252d5c7379d
-  RNCAsyncStorage: b63d6e83fc629b01df6b624688f17944cea5637f
+  ReactNativePermissions: 2b1a70d890d711449e9c3cc5f0bd440bf0aa5492
+  RNCAsyncStorage: 56a3355a10b5d660c48c6e37325ac85ebfd09885
   yoga: 843fe25849b56131275bf3e5da2c468e96f68aff
 
 PODFILE CHECKSUM: b88bd82c6997520c7ee360ccba0e3d9b29702a06
 
-COCOAPODS: 1.7.4
+COCOAPODS: 1.10.1

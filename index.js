@@ -1,7 +1,7 @@
 // @flow
 
 import {NativeModules, PermissionsAndroid, Platform} from 'react-native';
-import AsyncStorage from '@react-native-community/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 const NativeModule = NativeModules.ReactNativePermissions;
 
 export type PermissionStatus =
